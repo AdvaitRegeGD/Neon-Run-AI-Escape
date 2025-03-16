@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MC_movement_script : MonoBehaviour
 {
+
+    public animator am;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,9 @@ public class MC_movement_script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKey(keyCode.D))
+        {
+            
+        }
     }
 }
